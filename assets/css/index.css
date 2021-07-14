@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: palegoldenrod;
+}
+
+.title {
+    display: flex; /*colocando em flex*/
+    align-items: center;
+    justify-content: center; /*centralizando*/
+    font-size: 3rem;
+    height: 15vh; /*definindo tamanho */
+    background-color: palegreen;
+}
+
+.simulador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    border-radius: 30px;
+    background-color: powderblue;
+    margin: 5vh 30vw;
+    padding: 10vh 5vw;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nome-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.mensalidade-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ano-select {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: .5rem 0 ;
+}
+
+input {
+    padding: 1rem 4rem;
+    border-radius: 10px;
+    border: solid 5px lavender;
+
+}
+
+select {
+    font-size: 1.5rem;
+    padding: 0.7rem 6rem;
+    border-radius: 10px;
+    border: solid 5px lavender;
+
+}
+
+button {
+    border-radius: 10px;
+    background-color: greenyellow;
+    border: lightpink;
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    padding: 1rem 5rem ;
+}
+
+button:hover {
+    transition: 1s;
+    background-color: yellow;
+    
+}
+
+input:hover {
+    transition: 1s;
+    border: solid 5px greenyellow;
+}
+
+select:hover {
+    transition: 1s;
+    border: solid 5px greenyellow;
+}
+
+.aba-resultado {
+    position: fixed;
+    bottom: 0;
+    height: 10vh;
+    width: 100vw;
+    background-color: palegreen;
+}
+
+.resultado-final {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    
+}

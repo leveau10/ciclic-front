@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciclic</title>
+    <link rel="stylesheet" href="./assets/css/index.css">
+</head>
+<body>
+    <header>
+        <h1 class="title">Ciclic</h1>
+    </header>
+    <main>
+        <div class="simulador">
+            <h2>Simulador de investimento com juros compostos</h2>
+            <form>
+                <div class="nome-input">
+                    <label for="nome">Nome</label>
+                    <input class="nome" name="nome" type="text">
+                </div>
+                <div class="mensalidade-input">
+                    <label for="mensalidade">Mensalidade</label>
+                    <input class="mensalidade" name="mensalidade" type="text">
+                </div>
+                <div class="ano-select">
+                    <label for="select">Período de investimento:</label>
+                    <select class="select" name="select">
+                        <option value="1">1 ano</option>
+                        <option value="2">2 anos</option>
+                        <option value="5">5 anos</option>
+                        <option value="10">10 anos</option>
+                        <option value="20">20 anos</option>
+                    </select>
+                </div>
+                <button class="submit-button" type="submit">Simular</button>
+            </form>
+        </div>
+        <section class="aba-resultado">
+            <p class="resultado-final">Olá, seja bem-vindo</p>
+        </section>
+    </main>
+    <script src="./js/index.js"></script>
+    
+</body>
+</html>
