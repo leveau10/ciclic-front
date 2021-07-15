@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ciclic</title>
+    <title>Simulic</title>
     <link rel="stylesheet" href="./assets/css/index.css">
 </head>
 <body>
     <header>
-        <h1 class="title">Ciclic</h1>
+        <h1 class="title">Simulic</h1>
     </header>
     <main>
         <div class="simulador">
@@ -20,8 +20,8 @@
                     <input class="nome" name="nome" type="text">
                 </div>
                 <div class="mensalidade-input">
-                    <label for="mensalidade">Mensalidade</label>
-                    <input class="mensalidade" name="mensalidade" type="text">
+                    <label for="mensalidade">Aporte Mensal</label>
+                    <input  id="mensalidade" class="mensalidade" name="mensalidade" type="text">
                 </div>
                 <div class="ano-select">
                     <label for="select">Período de investimento:</label>
@@ -37,9 +37,11 @@
             </form>
         </div>
         <section class="aba-resultado">
-            <p class="resultado-final">Olá, seja bem-vindo</p>
+            <p class="resultado-final">Seja bem vindo! Simule quanto você teria se seu dinheiro rendesse 0,517% ao mês. ^^</p>
+         
         </section>
     </main>
+    <script src="https://github.com/codermarcos/simple-mask-money/releases/download/v3.0.0/simple-mask-money.js"></script>
     <script src="./js/index.js"></script>
     
 </body>
